@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "Test",
+  "version": "1.0",
+  "description": "サンプル拡張機能",
+  "icons": {
+    "32": "icons/icon_32.png",
+    "48": "icons/icon_48.png",
+    "128": "icons/icon_128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.xvideos.com/*"
+      ],
+      "js": [
+        "main.js"
+      ]
+    }
+  ]
+}
