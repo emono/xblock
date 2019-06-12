@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
-  "name": "Test",
-  "version": "1.0",
-  "description": "サンプル拡張機能",
+  "name": "xblock",
+  "version": "1.0.0",
+  "description": "xvideos redirect for sazaesan",
   "icons": {
     "32": "icons/icon_32.png",
     "48": "icons/icon_48.png",
